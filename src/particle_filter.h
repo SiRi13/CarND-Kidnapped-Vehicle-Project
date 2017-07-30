@@ -98,9 +98,6 @@ class ParticleFilter {
    */
   void resample();
 
-  std::vector<LandmarkObs> transformToMapSpace(
-      Particle particle, std::vector<LandmarkObs> observations);
-
   /*
    * Set a particles list of associations, along with the associations
    * calculated world x,y coordinates
